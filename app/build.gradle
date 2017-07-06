@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 18
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+        applicationId "kr.re.keti.ncubelavender"
+        minSdkVersion 18
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            //runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/DEPENDENCIES.txt'
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile files('libs/mqtt-client-0.4.1-20131108.120422-14.jar')
+    compile files('libs/org.json-20120521.jar')
+    compile files('libs/http-2.2.1.jar')
+    compile files('libs/httpcomponents-core-4.3.2/lib/httpcore-4.3.2.jar')
+    compile files('libs/httpcomponents-core-4.3.2/lib/commons-cli-1.2.jar')
+    compile files('libs/httpcomponents-core-4.3.2/lib/httpcore-ab-4.3.2.jar')
+    compile files('libs/httpcomponents-core-4.3.2/lib/httpcore-nio-4.3.2.jar')
+    compile files('libs/android-bsf-api-3.1.jar/android-bsf-api-3.1.jar')
+    compile files('libs/android-sun-jarsign-support-1.1.jar/android-sun-jarsign-support-1.1.jar')
+}
