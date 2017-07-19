@@ -16,7 +16,7 @@ Download and install Java SE JDK at ORACLE website from the URL.(http://www.orac
 <img src="https://user-images.githubusercontent.com/29790334/28374986-4556eae2-6ce1-11e7-9867-6e36660cda05.png" width="800"/>
 </div><br/>
 - [Android Studio]
-Download and install Android Studio from the URL.(https://developer.android.com/studio/index.html?gclid=Cj0KCQjwhrzLBRC3ARIsAPmhsnUx4BOW3SM6GdExu7S0O9QdiFJA0g-nfkCI2sPIcmTAwklxSgkdbtAaApV6EALw_wcB)
+Download and install Android Studio from the URL.(https://developer.android.com/studio/index.html)
 <div align="center">
 <img src="https://user-images.githubusercontent.com/29790334/28378125-0fa6ee8e-6cea-11e7-8cf1-149d486927f5.png" width="800"/>
 </div><br/>
