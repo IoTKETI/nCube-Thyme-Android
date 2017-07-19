@@ -38,10 +38,10 @@ public class NCubeSetting extends Activity {
                 "{\n" +
                         "\"useprotocol\": \"http\",\n" +
                         "\"cse\": {\n" +
-                                "\"cbhost\": \"192.168.0.56\",\n" +
+                                "\"cbhost\": \"203.253.128.161\",\n" +
                                 "\"cbport\": \"7579\",\n" +
-                                "\"cbname\": \"mobius-yt\",\n" +
-                                "\"cbcseid\": \"/mobius-yt\",\n" +
+                                "\"cbname\": \"Mobius\",\n" +
+                                "\"cbcseid\": \"/Mobius\",\n" +
                                 "\"mqttport\": \"1883\"\n" +
                         "},\n" +
                         "\"ae\": {\n" +
