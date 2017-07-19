@@ -8,8 +8,8 @@
 <img src="https://user-images.githubusercontent.com/29790334/28315421-497cf0b4-6bf9-11e7-9e67-61e4c351c035.png" width="600"/>
 </div>
 
-## Installation
-&Cube-Thyme for Android is developed with java.
+## Developement Environment
+&Cube-Thyme for Android is written in Java targeting Android application.
 - [JDK(Java Development Kit)]
 Download and install Java SE JDK at ORACLE website from the URL.(http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 <div align="center">
